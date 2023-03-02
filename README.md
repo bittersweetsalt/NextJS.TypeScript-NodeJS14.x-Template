@@ -22,3 +22,11 @@ modules:
 
 ### Deploying on Lyrid
 Start uploading the project using [lc code submit !](https://docs.lyrid.io/installation)
+
+<a href="https://app.lyrid.io/login?one-click-deploy=true&origin=github&repository-url=https://github.com/LyridInc/NextJS.TypeScript-Node14.x-Template.git&env=empty&project-type=nextjs&repo-name=NextJS.TypeScript-Node14.x-Template">
+  <button>
+    <img src="/public/svg/ocd_deploy_to_lyrid.svg" style="height: 50px; width:200px;"/>
+  </button>
+</a>
+
+
