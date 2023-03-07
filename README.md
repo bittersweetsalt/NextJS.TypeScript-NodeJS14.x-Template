@@ -1,27 +1,59 @@
 # NextJS-NodeJS14.x-Template
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app --typescript`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). With .lyrid-definition.yml packaged together as a default template.
 
-### Lyrid now supports NextJS12 natively.
-With our newest update, user no longer need to pack NextJS into ExpressJS. Just copy the `.lyrid-definition.yml` file to
-project root and configure the file according to your liking.
-```bash
-name: <Application Name>
-description: <Application Description>
-ignoreFiles: .git .next node_modules
-modules:
-  - name: <Module Name>
-    language: nodejs14.x
-    web: nextjs
-    description: <Module Description>
-    functions:
-      - name: <Function Name>
-        entry: entry.js
-        description: the entry point for the function
+## SAMPLE TEMPLATE
+![hi](/dist/img/lyrid_logo_large.png)
+This template is for _language_ suitable for uploading to the Lyrid Platform.
+
+## Prerequisites 
+1. Register an account at [Lyrid Web Application](https://app.beta.lyrid.io/) 
+2. Download our command line tool, [the lc](https://docs.lyrid.io/initialization)
+3. Clone the repo 'git clone https://github.com/sample_here'
+
+## Run locally with:
+```
+npm i
+npm start
 ```
 
-### Deploying on Lyrid
-Start uploading the project using [lc code submit !](https://docs.lyrid.io/installation)
+Open http://localhost:3000
+
+## Edit the names (optional):
+Open .lyrid-definition and change the App and Module name, because this will override another applications with the same name in the platform.
+
+## User can clone this repo, then Replace these variables in all files :
+- YOUR_APP_NAME
+- YOUR_MODULE_NAME
+- YOUR_FUNCTION_NAME
+
+To change your file information:
+Open ```.lyrid-definition.YML``` file
+Change ```name``` and ```module name``` to your choice and save.
+
+### Start Coding!
+Users can edit route url, settings, and views with custom APIs. 
+
+### Submit to Lyrid 
+Use our command line tool to easily upload your application to the cloud.
+```
+lc code submit
+```
+
+## Start hacking:
+
+Edit the routes at /src/entry/entry.js with your custom API. 
+
+Add more middlewares or your business logic in there.
+
+## Contact Us
+Have any questions? We are here to help!
+Email us at support@lyrid.io  
+
+### Find us on social medias
+- [Discord](https://discord.com/invite/xtCCtc9WAX)
+- [LinkedIn](https://www.linkedin.com/company/lyrid/?viewAsMember=true)
+- [Twitter](https://twitter.com/LyridInc)
+- [Facebook](https://www.facebook.com/lyridinc)
 
 <a href="https://app.lyrid.io/login?one-click-deploy=true&origin=github&repository-url=https://github.com/LyridInc/NextJS.TypeScript-Node14.x-Template.git&env=empty&project-type=nextjs&repo-name=NextJS.TypeScript-Node14.x-Template">
   <button>
