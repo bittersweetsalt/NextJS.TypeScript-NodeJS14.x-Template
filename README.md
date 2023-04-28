@@ -55,7 +55,7 @@ Email us at support@lyrid.io
 - [Twitter](https://twitter.com/LyridInc)
 - [Facebook](https://www.facebook.com/lyridinc)
 
-<a href="https://app.lyrid.io/login?one-click-deploy=true&origin=github&repository-url=https://github.com/LyridInc/NextJS.TypeScript-Node14.x-Template.git&env=empty&project-type=nextjs&repo-name=NextJS.TypeScript-Node14.x-Template">
+<a href="https://app.lyrid.io/login?one-click-deploy=true&origin=github&repository-url=https://github.com/LyridInc/NextJS.TypeScript-NodeJS14.x-Template.git&env=empty&project-type=nextjs&repo-name=NextJS.TypeScript-NodeJS14.x-Template">
   <button>
     <img src="/public/svg/ocd_deploy_to_lyrid.svg" style="height: 50px; width:200px;"/>
   </button>
